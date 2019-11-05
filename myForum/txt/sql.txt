@@ -1,0 +1,8 @@
+INSERT INTO `champions` (champ_id, champ_name, champ_desc) VALUES 
+(1,'Warwick','The Uncaged Wrath of Zaun'), 
+(2,'Jax','Grandmaster at Arms'), 
+(3,'Lux','The Lady of Luminosity');
+
+UPDATE `champions` SET ban = 'Jax' WHERE champ_name = 'Warwick';
+UPDATE `champions` SET ban = 'Yasou' WHERE champ_name = 'Lux';
+UPDATE `champions` SET ban = 'Fiona' WHERE champ_name = 'Jax' 
